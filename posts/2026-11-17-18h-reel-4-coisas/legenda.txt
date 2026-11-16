@@ -1,0 +1,16 @@
+Prompt para professores: por que a IA te dá respostas genéricas e as 4 coisas que todo prompt precisa ter.
+
+Se a IA te devolve uma atividade rasa, que serve para qualquer escola do mundo, quase sempre falta uma destas 4 partes no seu pedido:
+
+✦ PERSONA: diga quem a IA é. "Você é professora de Ciências do 6º ano."
+✦ CONTEXTO: conte sobre a turma. "Meus alunos têm dificuldade em interpretação de texto."
+✦ AÇÃO: diga o que você quer. "Crie uma atividade sobre cadeia alimentar."
+✦ FORMATO: diga como quer receber. "Em uma tabela, com gabarito."
+
+Com essas 4 partes, a IA para de chutar e passa a trabalhar para a sua turma.
+
+🎁 Comente CONTEXTO que eu te envio, de graça, um PDF com 5 contextos prontos para colar na IA.
+📌 Salve este vídeo para não esquecer.
+➡️ Siga @proftatiaraujo para mais IA na educação.
+
+#promptsparaprofessores #iaparaprofessores #chatgpt #professores #educacao

@@ -1,0 +1,22 @@
+Prompts para professores: 7 comandos de IA para planejar, corrigir e ganhar tempo na sua semana.
+
+Um prompt para cada dia da semana, do planejamento de segunda ao recado para as famílias no domingo. Todos testados na rotina de sala de aula.
+
+Como usar: copie o prompt, troque o que está entre [colchetes] pela sua realidade (disciplina, ano, tema, dificuldade da turma) e cole no ChatGPT, Gemini ou Claude.
+
+Por que os colchetes importam? Porque a IA só dá resposta genérica quando recebe pedido genérico. Quanto mais contexto você der (quem é você, como é sua turma, o que quer e em que formato), mais a resposta parece feita por você.
+
+✦ Segunda: plano de aula com BNCC
+✦ Terça: atividade em 3 níveis
+✦ Quarta: gabarito comentado e rubrica
+✦ Quinta: Ciências com profundidade
+✦ Sexta: registro para o diário
+✦ Sábado: metas do PDI
+✦ Domingo: recado para as famílias
+
+🎁 Comente CONTEXTO que eu te envio, de graça, um PDF com 5 contextos prontos para colar na IA.
+📌 Salve para usar ao longo da semana.
+💬 Comente qual prompt você vai testar primeiro.
+➡️ Siga @proftatiaraujo para mais IA na educação.
+
+#promptsparaprofessores #iaparaprofessores #inteligenciaartificial #planejamentodeaula #professores
