@@ -1,4 +1,4 @@
-Prompt para professores: por que a IA te dá respostas genéricas e as 4 coisas que todo prompt precisa ter.
+O problema não é a IA. É o seu prompt: as 4 coisas que todo prompt de professor precisa ter.
 
 Se a IA te devolve uma atividade rasa, que serve para qualquer escola do mundo, quase sempre falta uma destas 4 partes no seu pedido:
 
