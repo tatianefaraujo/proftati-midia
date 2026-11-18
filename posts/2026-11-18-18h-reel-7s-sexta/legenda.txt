@@ -1,27 +1,9 @@
-Prompts de IA para professores: os 7 comandos que eu uso para planejar, corrigir e preencher o diário 👇🏻
+Prompts de IA para professores: os 7 comandos que salvam a minha sexta-feira.
 
-1. PLANEJAMENTO DA SEMANA
-"Você é professora de [disciplina] do [ano]. Monte o plano da semana sobre [tema], com habilidades da BNCC, 3 atividades e avaliação. Minha turma tem [nº] alunos e [principal dificuldade]. Entregue em tabela."
-
-2. ATIVIDADE EM 3 NÍVEIS
-"Adapte esta atividade em 3 níveis: quem lê com apoio, quem lê sozinho e quem já interpreta com autonomia. Mantenha o mesmo conteúdo: [cole]."
-
-3. CORREÇÃO
-"Crie o gabarito comentado desta prova, com o erro mais comum em cada questão e uma rubrica de 4 níveis para as abertas: [cole]."
-
-4. EXPLICAÇÃO COM PROFUNDIDADE
-"Explique [conceito] para o [ano] com uma analogia do dia a dia, os termos científicos corretos e um experimento simples para a sala."
-
-5. REGISTRO PARA O DIÁRIO
-"Transforme estas anotações em um registro de aula claro para o diário: o que foi trabalhado, como e o que fica para a próxima: [cole]."
-
-6. PDI
-"Sugira 3 metas mensuráveis para o PDI de um aluno do [ano] com [necessidade], com 2 estratégias de sala para cada meta."
-
-7. RECADO PARA AS FAMÍLIAS
-"Escreva um recado curto e acolhedor para as famílias sobre [assunto], sem termos técnicos, terminando com como elas podem ajudar em casa."
+Planejamento da semana, atividade em 3 níveis, correção com rubrica, explicação com analogia, registro do diário, metas do PDI e recado para as famílias: tudo isso a IA rascunha em minutos, e eu reviso e decido.
 
 🎁 Comente CONTEXTO que eu te envio, de graça, um PDF com 5 contextos prontos para colar na IA.
-➡️ Siga @proftatiaraujo para mais IA na educação.
+📤 Manda para a colega que passa a sexta corrigindo.
+➡️ Siga @proftatiaraujo
 
 #iaparaprofessores #promptsparaprofessores #chatgpt #professores #educacao
