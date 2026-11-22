@@ -1,0 +1,19 @@
+Prompts para professores: 1 prompt de IA para cada dia da semana, do planejamento de segunda ao recado para as famílias.
+
+📚 Série "Prompts da semana"
+
+A IA para de dar resposta genérica quando o pedido tem 4 partes. É o método POFT:
+✦ Persona: quem a IA deve ser.
+✦ Objetivo: um pedido por vez.
+✦ Formato: tabela, lista ou folha para imprimir.
+✦ Turma: quem são seus alunos.
+
+No carrossel estão os prompts de segunda (planejar a semana) e de terça (atividade em 3 níveis) completos, e o resumo dos outros 5: rubrica, explicação com analogia, registro do DED+, recado para as famílias e revisão da semana.
+
+📌 Salve para usar no domingo à noite, quando for planejar.
+📤 Manda para a colega que ainda pede "faz uma atividade" para a IA.
+🎁 Comente PROMPTS e receba os 7 prompts completos, prontos para copiar.
+
+© Prof. Tati, com apoio de IA (Claude). Proibido copiar sem créditos.
+
+#promptsparaprofessores #iaparaprofessores #chatgptparaprofessores #planejamento #professores

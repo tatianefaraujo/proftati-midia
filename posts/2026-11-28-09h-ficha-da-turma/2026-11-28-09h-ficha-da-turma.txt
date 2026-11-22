@@ -1,0 +1,17 @@
+IA para professores: a ficha da turma que faz o ChatGPT responder pensando nos SEUS alunos.
+
+📚 Série "IA para professores"
+
+A IA só acerta quando conhece a sua turma. Compare:
+❌ "Crie uma atividade de leitura para o 3º ano."
+✅ "Minha turma tem 28 alunos, 6 ainda não leem com fluência e 2 têm TEA nível 1. Crie..."
+
+A ficha tem 5 campos e leva 5 minutos: ano e tamanho da turma, nível de leitura, necessidades específicas, o que engaja e os recursos da escola. Você preenche uma vez, cola antes do pedido e usa o ano todo. Se a resposta vier genérica, ajuste com uma frase em vez de recomeçar.
+
+📌 Salve para preencher no início do ano.
+📤 Manda para a colega que diz que a IA "não serve para a realidade dela".
+🎁 Comente FICHA e receba a ficha da turma + 10 frases de ajuste.
+
+© Prof. Tati, com apoio de IA (Claude). Proibido copiar sem créditos.
+
+#iaparaprofessores #chatgptparaprofessores #inteligenciaartificial #educacao #professores
