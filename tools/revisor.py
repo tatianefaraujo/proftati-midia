@@ -115,7 +115,7 @@ def checar_slide(path, idx, total):
             if len(titulo) > CAPA_MAX:
                 res.append(("erro", f"título da capa longo demais ({len(titulo)} palavras): \"{txt}\""))
             elif txt:
-                res.append(("aviso", f"capa: conferir se promete um resultado concreto e verdadeiro → \"{txt}\""))
+                res.append(("aviso", f"capa: tem posição da Tati (opinião/chamado, não só tema) e é verdadeira? → \"{txt}\""))
             else:
                 res.append(("aviso", "capa: não consegui ler o título; conferir à mão se promete um resultado concreto"))
     if not [r for r in res if r[0] == "erro"]:
@@ -199,7 +199,7 @@ def revisar(pasta):
         linhas.append(f"⚠ Último slide: não achei o \"Comente {palavra}\" no slide (só na legenda)")
     linhas += ["", f"**Resultado: {len(slides) and (len(slides) - marcas.count('✗'))} de {len(slides)} slides ok; "
                + ("pode ir para a Tati.**" if erros == 0 else f"{erros} item(ns) para refazer.**"),
-               "", "Falta conferir à mão: automação da palavra do brinde ligada no Hypello."]
+               "", "Falta conferir à mão: automação da palavra do brinde ligada no Hypello; capa e 1ª linha da legenda com posição da Tati (regra 24/11, ver claude/posicionamento-carrosseis.md)."]
     open(os.path.join(pasta, "revisao.md"), "w", encoding="utf-8").write("\n".join(linhas) + "\n")
     if slides:
         miniaturas(slides, f"/tmp/revisao-{nome}.jpg", marcas)
