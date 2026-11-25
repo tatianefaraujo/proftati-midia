@@ -109,7 +109,7 @@ def checar_slide(path, idx, total):
     if idx == 0:
         alturas = [w["h"] for w in corpo]
         if alturas:
-            corte = max(alturas) * 0.5
+            corte = max(alturas) * 0.7
             titulo = [w["t"] for w in sorted(corpo, key=lambda w: (w["y"] // 40, w["x"])) if w["h"] >= corte and w["y"] < 800]
             txt = " ".join(titulo)
             if len(titulo) > CAPA_MAX:
