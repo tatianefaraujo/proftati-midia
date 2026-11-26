@@ -31,7 +31,7 @@ def add(x,t):
     i=int(t*SR); buf[i:i+len(x)]+=x[:len(buf)-i]
 for it in spec['items']:
     add(ding(880,1318) if it['v']=='pode' else bonk(), it['g'])
-    add(whoosh(), it['g']+0.5)
+    add(whoosh(), it['f']-0.05)
 buf=np.clip(buf,-1,1)
 with wave.open(out,'w') as f:
     f.setnchannels(1); f.setsampwidth(2); f.setframerate(SR); f.writeframes((buf*32767).astype('<i2').tobytes())

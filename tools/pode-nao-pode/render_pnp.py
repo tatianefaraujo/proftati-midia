@@ -92,7 +92,7 @@ def paste(base, im, x, y, a=1.0):
 WORDS = spec.get('words', [])
 for i, x in enumerate(WORDS):
     nxt = WORDS[i+1][1] if i+1 < len(WORDS) else x[1] + 0.8
-    x[2] = min(nxt, x[1] + 0.9)
+    x[2] = min(nxt, x[1] + 0.6)
 FW = F(BOLD, 104)
 _wc = {}
 def word_im(w):
@@ -115,7 +115,7 @@ WORD_Y = 1100
 
 def overlay(t):
     o = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    stamping = any(it['g'] <= t < it['g'] + 0.55 for it in items)
+    stamping = any(it['g'] <= t < it['f'] for it in items)
     for i, (w, a, b) in enumerate(WORDS):
         if not stamping and a <= t < b:
             if w.strip('.,!?').lower() == 'pode' and i > 0 and WORDS[i-1][0].strip('.,').lower() in ('não', 'nao'): w = w + ' '
@@ -125,7 +125,7 @@ def overlay(t):
             if t < spec['hook_fim']: top = BOT - hook.height
             if t >= spec['fim_ini']: top = BOT - fim.height
             for it2 in items:
-                if it2['ini'] <= t < it2['g'] + 0.55: top = BOT - it2['card'].height - 70
+                if it2['ini'] <= t < it2['f']: top = BOT - it2['card'].height - 70
             wy = min(WORD_Y, top - 150)
             paste(o, im2, (W - im2.width) / 2, wy - (im2.height - im.height) / 2)
             break
@@ -137,7 +137,7 @@ def overlay(t):
         for k, hx in COLX.items(): paste(o, heads[k], hx, HEADY, a)
     for it in items:
         g = it['g']; c = it['card']; cx = (W - c.width) / 2; CY = BOT - c.height
-        if it['ini'] <= t < g + 0.55:
+        if it['ini'] <= t < it['f']:
             a = min(1, (t - it['ini']) / 0.25)
             paste(o, c, cx, CY, a)
             if t >= g:
@@ -151,11 +151,11 @@ def overlay(t):
                 paste(o, c, cx, CARD_Y, a)
                 s = STAMP['dep']; paste(o, s, (W - s.width) / 2, CARD_Y + c.height - 10, a)
             continue
-        if g + 0.55 <= t < g + 1.0:
-            k = ease((t - g - 0.55) / 0.45); ch = it['chip']; dx, dy = it['dest']
+        if it['f'] <= t < it['f'] + 0.45:
+            k = ease((t - it['f']) / 0.45); ch = it['chip']; dx, dy = it['dest']
             sx, sy = (W - ch.width) / 2, CY + 40
             paste(o, ch, sx + (dx - sx) * k, sy + (dy - sy) * k, 0.4 + 0.6 * k)
-        elif t >= g + 1.0:
+        elif t >= it['f'] + 0.45:
             paste(o, it['chip'], *it['dest'])
     if t >= spec['fim_ini']:
         a = min(1, (t - spec['fim_ini']) / 0.3)
