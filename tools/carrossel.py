@@ -49,9 +49,9 @@ def guia(s,serie,n,N,foto):
         if s.get('recorte'):
             esq = s.get('pos') == 'esq'
             lado = 'left' if esq else 'right'
-            h = s.get('alt', 660)
-            ph = (f'<div style="position:absolute;{lado}:-80px;bottom:60px;width:600px;height:600px;border-radius:50%;background:{Y};opacity:.9"></div>'
-                  f'<img src="data:image/png;base64,{b64(s["recorte"])}" style="position:absolute;{lado}:20px;bottom:96px;height:{h}px;max-width:620px;object-fit:contain;object-position:bottom">')
+            h = s.get('alt', 620)
+            ph = (f'<div style="position:absolute;{lado}:40px;bottom:150px;width:540px;height:540px;border-radius:50%;background:{Y};opacity:.9"></div>'
+                  f'<img src="data:image/png;base64,{b64(s["recorte"])}" style="position:absolute;{lado}:50px;bottom:150px;height:{h}px;max-width:580px;object-fit:contain;object-position:bottom">')
             fz = int(fz * 0.86)
             sl = 'left:640px' if esq else 'left:80px'
             return top+ph+f'''<div style="position:absolute;left:80px;right:80px;top:150px;z-index:2"><span class="tag">{s['tag']}</span>
