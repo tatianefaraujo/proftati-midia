@@ -46,6 +46,16 @@ def guia(s,serie,n,N,foto):
     if s['t']=='capa':
         fz=tsize(s['titulo'],118,84,34)
         ph=f'<img src="data:image/jpeg;base64,{b64(foto)}" style="position:absolute;right:70px;bottom:120px;width:300px;height:300px;object-fit:cover;object-position:50% 25%;border-radius:50%;border:8px solid {Y}">' if foto else ''
+        if s.get('recorte'):
+            esq = s.get('pos') == 'esq'
+            lado = 'left' if esq else 'right'
+            h = s.get('alt', 660)
+            ph = (f'<div style="position:absolute;{lado}:-80px;bottom:60px;width:600px;height:600px;border-radius:50%;background:{Y};opacity:.9"></div>'
+                  f'<img src="data:image/png;base64,{b64(s["recorte"])}" style="position:absolute;{lado}:20px;bottom:96px;height:{h}px;max-width:620px;object-fit:contain;object-position:bottom">')
+            fz = int(fz * 0.86)
+            sl = 'left:640px' if esq else 'left:80px'
+            return top+ph+f'''<div style="position:absolute;left:80px;right:80px;top:150px;z-index:2"><span class="tag">{s['tag']}</span>
+<h1 style="margin-top:40px;font-size:{fz}px">{s['titulo']}</h1></div><p style="position:absolute;{sl};width:380px;bottom:170px;z-index:2;font-size:36px;line-height:1.4;color:#4A4234">{s.get('sub','')}</p>'''
         return top+f'''<div style="position:absolute;left:80px;right:80px;top:150px"><span class="tag">{s['tag']}</span>
 <h1 style="margin-top:40px;font-size:{fz}px">{s['titulo']}</h1><p style="font-size:42px;line-height:1.4;margin-top:44px;color:#4A4234;max-width:{'600' if foto else '900'}px">{s.get('sub','')}</p></div>{ph}{st([(1020,90,60),(1110,170,28)])}'''
     fz=tsize(s['titulo'],84,62,30)
